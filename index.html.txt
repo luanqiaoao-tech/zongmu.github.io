@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青铜面具系列</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: "Microsoft Yahei", sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .header {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .title-group {
+            display: flex;
+            flex-direction: column;
+        }
+        .main-title {
+            font-size: 24px;
+            color: #badaaa;
+        }
+        .sub-title {
+            font-size: 14px;
+            color: #ddd;
+            margin-top: 5px;
+        }
+        .collection-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .collection-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #4a5a50;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .collection-text {
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        .mask-image {
+            margin-top: 40px;
+            max-width: 80%;
+        }
+        .mask-image img {
+            width: 100%;
+            height: auto;
+        }
+        .series-name {
+            font-size: 20px;
+            margin-top: 30px;
+            color: #eee;
+        }
+        .item-details {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .item-number {
+            display: inline-block;
+            background-color: #c0a060;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .acquire-time {
+            display: inline-block;
+            background-color: #555;
+            color: #ddd;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .save-album {
+            margin-top: 40px;
+            background: linear-gradient(to right, #6a9a80, #a0b0a5);
+            color: #fff;
+            border: none;
+            padding: 15px 40px;
+            font-size: 20px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .museum-section {
+            margin-top: 50px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .museum-logo {
+            width: 40px;
+            height: 40px;
+            background-color: #d0c080;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+        }
+        .museum-label {
+            font-size: 14px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title-group">
+            <div class="main-title">纵目千面 · 触碰纪元</div>
+            <div class="sub-title">TOUCHING THE BRONZE AGE</div>
+        </div>
+        <div class="collection-btn">
+            <div class="collection-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1ZM12 11.99H15V19.92C15 20.5 14.5 21 13.92 21C13.7 21 13.5 20.94 13.31 20.85L12 20.12L10.69 20.85C10.5 20.94 10.3 21 10.08 21C9.5 21 9 20.5 9 19.92V11.99H12ZM12 6.99C13.1 6.99 14 7.89 14 8.99C14 10.1 13.1 10.99 12 10.99C10.9 10.99 10 10.1 10 8.99C10 7.89 10.9 6.99 12 6.99Z" fill="white"/>
+                </svg>
+            </div>
+            <div class="collection-text">我的藏品</div>
+        </div>
+    </div>
+    <div class="mask-image">
+        <!-- 替换为实际青铜面具图片地址 -->
+        <img src="https://example.com/mask-image.jpg" alt="青花风格青铜面具">
+    </div>
+    <div class="series-name">青铜面具系列</div>
+    <div class="item-details">
+        <div class="item-number">NO.AG1020233321</div>
+        <div class="acquire-time">获得时间2024-3-1</div>
+    </div>
+    <button class="save-album">保存至相册</button>
+    <div class="museum-section">
+        <div class="museum-logo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z" stroke="black" stroke-width="1.5"/>
+            </svg>
+        </div>
+        <div class="museum-label">三星堆博物馆<br>SANXINGDUI MUSEUM</div>
+    </div>
+</body>
+</html>
